@@ -1,0 +1,156 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW
+
+ID = # 
+
+Class = .
+
+ */
+
+.navbar-custom {background-color: #232C08 !important;
+}
+
+
+#page-top {
+	background-color: #3E432F ;
+}
+
+#about, #resources {
+background-color: #6B6F5A ;
+}
+
+#casestudies, #testimonials  {
+	background-color: #3E432F ;
+}
+
+h1 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #C9CE8C;
+  font-size: 64px;
+}
+
+h2 {
+	font-family: "Fahkwang", sans-serif;
+	text-align: center;
+	font-weight: 100;
+	font-style: normal;
+	color: #F0F1DA !important;
+}
+
+h5 {
+	font-family: "Fahkwang", sans-serif;
+	font-style: normal;
+  color: #232C08 !important;
+}
+
+p {
+	color: #C9CE8C ;
+}
+
+
+
+ul {list-style-image: url('images/reel.png');
+font-family: helvetica light, sans-serif;
+color:#C9CE8C !important ;
+}
+
+
+/* Footer */
+.bg-dark {
+background-color: #232C08 !important;
+font-family: helvetica light, sans-serif;
+font-color:#C9CE8C !important ;
+}
+
+/* General container styling */
+.resources-container {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1200px;
+  text-align: left;
+}
+
+.resource-title {
+  font-family: 'Fahkwang', sans-serif;
+  color: #C9CE8C;
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: 600; /* Use a weight that looks best */
+}
+
+/* Grid layout for the resources */
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Individual resource card styling */
+.resource-card {
+  background-color: #3E432F;
+  border: 2px solid #232C08;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.resource-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Text and info */
+.resource-info {
+  padding: 1rem;
+}
+
+.resource-description {
+  font-family: 'Helvetica Neue', Helvetica, 'Helvetica Light', sans-serif;
+  color: #C9CE8C !important;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* Add a smooth hover effect for links */
+.resource-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resource-card a:hover {
+  text-decoration: underline;
+}
+
+.testimonial-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* space between videos */
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0; /* no space between video and caption */
+}
+
+.caption {
+  background-color: #F0F1DA;
+  color: #232C08 !important;
+  font-family: 'Helvetica Light', sans-serif;
+  padding: 15px;
+  max-width: 600px;
+  margin-left: 15px; /* space between video and caption */
+  border-radius: 8px;
+}
+
+}
